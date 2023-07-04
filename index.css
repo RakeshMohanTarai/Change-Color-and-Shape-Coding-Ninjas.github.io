@@ -1,0 +1,135 @@
+#outerDiv {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute;
+    top: 25%;
+    left: 42.5%;
+    border-radius: 50%;
+    overflow: hidden; /* Ensures the triangle shape stays within the outerDiv */
+  }
+  
+  #innerDiv {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+  }
+  
+  #btnColor {
+    position: absolute;
+    left: 46%;
+    top: 63%;
+    width: 105px;
+    height: 25px;
+    cursor: pointer;
+    box-shadow: 5px 5px #888888;
+  }
+  
+  #btnShape {
+    position: absolute;
+    left: 46%;
+    top: 57%;
+    height: 25px;
+    cursor: pointer;
+    box-shadow: 5px 5px #888888;
+  }
+  
+  #innerDiv.circle {
+    background-color: white;
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    position: absolute;
+    top: 21%;
+    left: 21%;
+  }
+  
+  #innerDiv.triangle {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 100px solid white;
+    position: absolute;
+    left: 13%;
+    top: 20%;
+  }
+  
+  #innerDiv.rightAngleTriangle {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-right: 100px solid white;
+  }
+  
+  #innerDiv.leftAngleTriangle {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent;
+    border-left: 100px solid white;
+  }
+
+/* Media Query Section */
+
+@media (min-width: 400px) and (max-width: 600px) {
+    #outerDiv{
+    top:18%;
+    left:42%;
+  }
+    #btnShape {
+    top:22rem;
+    left:50%;
+  }
+  #btnColor {
+  top:24.5rem;
+  left:50%;
+}
+} 
+
+@media (min-width: 600px) and (max-width: 700px){
+        #outerDiv{
+        top:18%;
+        left:42%;
+        }
+        #btnShape {
+        top:22rem;
+        left:50%;
+        }
+        #btnColor {
+        top:24.5rem;
+        left:50%;
+    }
+} 
+
+@media (min-width: 700px) and (max-width: 900px) {
+    #outerDiv{
+    top:18%;
+    left:43.5%;
+    }
+    #btnShape {
+    top:22rem;
+    left:49%;
+    }
+    #btnColor {
+    top:24.5rem;
+    left:49%;
+}
+}   
+
+@media (min-width: 900px) {
+    #outerDiv{
+    top:18%;
+    left:43%;
+    }
+    #btnShape {
+    top:22rem;
+    left:46%;
+    }
+    #btnColor {
+    top:24.5rem;
+    left:46%;
+}
+}  
+
