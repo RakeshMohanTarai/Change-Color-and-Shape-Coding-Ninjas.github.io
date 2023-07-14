@@ -10,3 +10,5 @@ Now provide two buttons as :-
 2. 'Change Shape' to change the shape.
 
 Clicking on these buttons should change the color background color and shape randomly. 
+
+Hosted link :- https://rakeshmohantarai.github.io/Change-Color-and-Shape-Coding-Ninjas.github.io/
